@@ -19,7 +19,7 @@ def zeichneLinie(punkt1, punkt2, farbe):
      cluma.drawLine(punkt1, punkt2, farbe)
 
 def zeichneDreieck(punkt1, punkt2, punkt3, farbe):
-     cluma.drawTriangle( punkt1, punkt2, punkt3, farbe )
+     cluma.drawTriangle(punkt1, punkt2, punkt3, farbe)
 
 def zeichne():
      cluma.draw()
