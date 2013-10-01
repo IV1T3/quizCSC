@@ -35,6 +35,12 @@ def drawCircle(m, r, color):
     screen.lock()
     pygame.draw.circle(screen, color, m, r)
     screen.unlock()
+    
+def drawEllipse(x, y, width, height, color):
+    global screen
+    screen.lock()
+    pygame.draw.ellipse(screen, color, pygame.Rect(x, y, width, height))
+    screen.unlock()
         
 def drawLine(point1, point2, color):
     global screen
@@ -57,6 +63,11 @@ def drawTriangle(point1, point2, point3, color):
     screen.lock()
     pygame.draw.polygon(screen, color, pointlist)
     screen.unlock()
+    
+def getScreenSize():
+    """returns (width, height)"""
+    global screen
+    return screen.get_size()
 
 def draw():
     global screen

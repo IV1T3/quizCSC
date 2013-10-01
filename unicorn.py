@@ -25,14 +25,17 @@ while True:
      #Hals
      engine.zeichneRechteck(x+250-30, y, 30, -50, (255,255,255))
 
+     #Horn
+     engine.zeichneDreieck((x+250-25, y-75), (x+250, y-75), (x+300, y-150), (233,233,233))
+
      #Kopf
      engine.zeichneKreis((x+250-15, y - 50), 30, (255,255,255))
 
-     #Horn
-     engine.zeichneDreieck((x+250-25, y-80), (x+250, y-80), (x+300, y-150), (0,0,0))
-
      #Auge
      engine.zeichneKreis((x+250, y - 60), 5, (0,0,0))
+     
+     #Schweif
+     engine.zeichneDreieck((x, y), (x-20, y+90), (x, y+40), (0,0,0))
      
      engine.zeichne()
 
