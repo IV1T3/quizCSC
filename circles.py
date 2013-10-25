@@ -2,7 +2,7 @@ import RealEngine.clumaDe, random
 
 bildschirmBreite = 1440
 bildschirmHoehe = 900
-
+#TROLOLOLOLOL
 engine = RealEngine.clumaDe
 engine.initialisieren(bildschirmBreite, bildschirmHoehe, True, (0,0,0))
 
