@@ -1,0 +1,72 @@
+<!docytpe html>
+<html>
+	<head>
+		<title>Dokumentation - ClumaEngine</title>
+		<style>
+			section:target {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>ClumaEngine f&uuml;r das grafische Pythonquiz</h1>
+		<ul id="">
+			<li> <a href="#drawWords">drawWords() - Texte ausgeben</a></li>
+			<li> <a href="#drawCircle">drawCircle() - Kreise zeichen</a></li>
+			<li> <a href="#drawEllipse">drawEllipse() - Ellipsen zeichnen</a></li>
+			<li> <a href="#drawLine">drawLine() - Linien zeichnen</a></li>
+			<li> <a href="#drawRect">drawRect() - Rechteck zeichnen</a></li>
+		</ul>
+		<section id="whatsEngine">
+			<h2>Was ist eine Engine?</h2>
+			<p>Hier kommt eine informative Defintion hin...</p>
+		</section>
+		<section id="engineFunctions">
+			<h2>Erkl&auml;rung der Funktionen</h2>
+			<section id="draw">
+				<h3>draw()</h3>
+				<p class="params">Aufruf OHNE Parametern/Argumenten: draw()</p>
+				<p class="exam">Beispiel: draw()</p>
+				<p class="expl">Erkl&auml;rung: Die Funktion draw() muss IMMMER nach allen Funktionen in den Code eingef&uuml;gt werden. Sie bewirkt, dass ale beschriebenen Dinge auf den Bildschirm gezeichnet werden.</p>
+				<p></p>
+			</section>
+			<section id="drawWords">
+				<h3>drawWords()</h3>
+				<p class="params">Aufruf mit Parametern/Argumenten: drawWords(Position, Text, Schriftgr&ouml;&szlig;e, Schriftfarbe)</p>
+				<p class="exam">Beispiel: drawWords((0,0), "Hallo", 23, (255,255,255))</p>
+				<p class="expl">Erkl&auml;rung: Die Funktion drawWords() erm&ouml;glicht es einem, Text auf dem Bildschirm anzuzeigen. In diesem Beispiel wird "Hallo" oben links in der Bildschirm-Ecke in Schriftgr&ouml;sse 23 in wei&szlig; ausgegeben.</p>
+				<p></p>
+			</section>
+			<section id="drawCircle">
+				<h3>drawCircle()</h3>
+				<p class="params">Aufruf mit Parametern/Argumenten: drawCircle(Mittelpunkt, Radius, Farbe)</p>
+				<p class="exam">Beispiel: drawCircle((50,50), 5, (0, 0, 255))</p>
+				<p class="expl">Erkl&auml;rung: Die Funktion drawCircle() erm&ouml;glicht es einem, einen Kreis auf den Bildschirm zu zeichen. In diesem Beispiel wird ein blauer Kreis mit dem Mittelpunkt auf den Koordinaten (50, 50) und einem Radius von 5 Pixeln gezeichnet(10 Pixel Durchmesser).</p>
+			</section>
+			<section id="drawEllipse">
+				<h3>drawEllipse()</h3>
+				<p class="params">Aufruf mit Parametern/Argumenten: drawEllipse(Start-x-Position, Start-y-Position, Breite, H&ouml;he, Farbe)</p>
+				<p class="exam">Beispiel: drawEllipse(0, 0, 500, 500, (255,255,0))</p>
+				<p class="expl">Erkl&auml;rung: Die Funktion drawEllipse() erm&ouml;glicht es einem, eine Ellipse auf den Bildschirm zu zeichen. In diesem Beispiel wird zuerst ein Viereck mit den Koordinaten x1->0, y1->0, x2->500, y2->500 erstellt, woraus anschlie&szlig;end eine Ellipse erstellt wird. Die Ellipse ist gelb.</p>
+			</section>
+			<section id="drawLine">
+				<h3>drawLine()</h3>
+				<p class="params">Aufruf mit Parametern/Argumenten: drawLine(1. Punkt, 2. Punkt, Farbe)</p>
+				<p class="exam">Beispiel: drawLine((0,0), (1440, 900), (255,0,0))</p>
+				<p class="expl">Erkl&auml;rung: Die Funktion drawLine() erm&ouml;glicht es einem, eine Linie auf den Bildschirm zu zeichen. In diesem Beispiel wird eine rote Linie von ganz oben links bis nach ganz rechts unten gezogen(nur bei einem Bildschirmformat von 1440x900)</p>
+			</section>
+			<section id="drawRect">
+				<h3>drawRect()</h3>
+				<p class="params">Aufruf mit Parametern/Argumenten: drawRect(Start-x-Position, Start-y-Position, Breite, H&ouml;he, Farbe)</p>
+				<p class="exam">Beispiel: drawRect(0, 0, 500, 500, (0, 255, 0))</p>
+				<p class="expl">Erkl&auml;rung: Die Funktion drawRect() erm&ouml;glicht es einem, ein Viereck auf den Bildschirm zu zeichen. In diesem Beispiel wird ein gr&uuml;nes Quadrat von ganz oben links bis zu den Koordinaten x2->500, y2->500 gezeichnet.</p>
+			</section>
+			<section id="drawTriangle">
+				<h3>drawTriangle()</h3>
+				<p class="params">Aufruf mit Parametern/Argumenten: drawTriangle(1. Punkt, 2. Punkt, 3. Punkt, Farbe)</p>
+				<p class="exam">Beispiel: drawTriangle((5,5), (55,5), (30,35), (0, 0, 255))</p>
+				<p class="expl">Erkl&auml;rung: Die Funktion drawTriangle() erm&ouml;glicht es einem, ein Dreieck auf den Bildschirm zu zeichnen. In diesem Beispiel wird ein gr</p>
+			</section>
+		</section>
+	</body>
+</html>
