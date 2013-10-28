@@ -21,7 +21,13 @@ body {
 }
 
 section:target {
-	color: red;
+	background-color: #3b5998;
+	border-radius: 15px;
+	color: white;
+	padding: 1em;
+}
+section:target table{
+	color: white;
 }
 
 nav {
@@ -35,4 +41,15 @@ nav {
 ul#index a{
 	text-decoration: none;
 	color: blue;
+}
+
+section#generalSect{
+	background-color: #FFF;
+	border-radius: 15px;
+	padding: 1em;
+	margin: 1em auto;
+	width: 60em;
+}
+section#generalSect h2.heading{
+	text-align: center;
 }
