@@ -20,6 +20,10 @@ body {
 	background-color: #E7EBF2;
 }
 
+h2.heading{
+	text-align: center;
+}
+
 table th,td{
 	padding: 0.42em;
 }
@@ -54,9 +58,6 @@ section#generalSect{
 	margin: 1em auto;
 	width: 60em;
 }
-section#generalSect h2.heading{
-	text-align: center;
-}
 section#engineFunctions{
 	background-color: #FFF;
 	border-radius: 15px;
@@ -64,6 +65,10 @@ section#engineFunctions{
 	margin: 1em auto;
 	width: 70em;
 }
-section#engineFunctions h2.heading{
-	text-align: center;
+section#tutorial{
+	background-color: #FFF;
+	border-radius: 15px;
+	padding: 1em;
+	margin: 1em auto;
+	width: 80em;
 }
