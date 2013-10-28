@@ -20,6 +20,10 @@ body {
 	background-color: #E7EBF2;
 }
 
+table th,td{
+	padding: 0.42em;
+}
+
 section:target {
 	background-color: #3b5998;
 	border-radius: 15px;
