@@ -1,9 +1,9 @@
-import RealEngine.clumaDe
+import QuizFL.quizFLG
 
 bildschirmBreite = 1280
 bildschirmHoehe = 800
 
-engine = RealEngine.clumaDe
+engine = QuizFL.quizFLG
 
 engine.initialisieren(bildschirmBreite, bildschirmHoehe, False, (255, 0, 255))
 

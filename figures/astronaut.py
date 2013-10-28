@@ -1,4 +1,6 @@
-import RealEngine
+import QuizFL
+
+engine = QuizFL.quizFLG
 
 class astronaut:
     def __init__(self, color = (255, 255, 255), position = [100,100], bewegungX = 1, bewegungY = 1, geschwindigkeit = 5, radius = 15, hoehe = 25, breite = 40):
@@ -12,8 +14,8 @@ class astronaut:
         self.breite = breite
         
     def move(self):
-        bildschirmBreite = RealEngine.clumaDe.bekommeBildschirmGroesse()[0]
-        bildschirmHoehe = RealEngine.clumaDe.bekommeBildschirmGroesse()[1]
+        bildschirmBreite = engine.bekommeBildschirmGroesse()[0]
+        bildschirmHoehe = engine.bekommeBildschirmGroesse()[1]
         if self.pos[0] < 30: #links mit armen
             self.bewegungX = 1
         
@@ -31,17 +33,17 @@ class astronaut:
         
     def draw(self):
         #Koerper
-        RealEngine.clumaDe.zeichneRechteck(self.pos[0], self.pos[1], self.hoehe, self.breite, self.color)
+        engine.zeichneRechteck(self.pos[0], self.pos[1], self.hoehe, self.breite, self.color)
         #Kopf
-        RealEngine.clumaDe.zeichneKreis((self.pos[0]+13, self.pos[1]-8), self.radius, self.color)
+        engine.zeichneKreis((self.pos[0]+13, self.pos[1]-8), self.radius, self.color)
         #Augen
-        RealEngine.clumaDe.zeichneKreis((self.pos[0]+8, self.pos[1]-8), self.radius-12, (255, 0, 0))
-        RealEngine.clumaDe.zeichneKreis((self.pos[0]+18, self.pos[1]-8), self.radius-12, (0, 0, 255))
+        engine.zeichneKreis((self.pos[0]+8, self.pos[1]-8), self.radius-12, (255, 0, 0))
+        engine.zeichneKreis((self.pos[0]+18, self.pos[1]-8), self.radius-12, (0, 0, 255))
         #Mund
-        RealEngine.clumaDe.zeichneLinie((self.pos[0]+5, self.pos[1]), (self.pos[0]+15, self.pos[1]), (255,0,0))
+        engine.zeichneLinie((self.pos[0]+5, self.pos[1]), (self.pos[0]+15, self.pos[1]), (255,0,0))
         #Arme
-        RealEngine.clumaDe.zeichneRechteck(self.pos[0]-20, self.pos[1]+8, self.breite-20, self.hoehe-20, self.color)
-        RealEngine.clumaDe.zeichneRechteck(self.pos[0]+25, self.pos[1]+8, self.breite-20, self.hoehe-20, self.color)
+        engine.zeichneRechteck(self.pos[0]-20, self.pos[1]+8, self.breite-20, self.hoehe-20, self.color)
+        engine.zeichneRechteck(self.pos[0]+25, self.pos[1]+8, self.breite-20, self.hoehe-20, self.color)
         #Beine
-        RealEngine.clumaDe.zeichneRechteck(self.pos[0]+3, self.pos[1]+40, self.breite-32, self.hoehe-5, self.color)
-        RealEngine.clumaDe.zeichneRechteck(self.pos[0]+14, self.pos[1]+40, self.breite-32, self.hoehe-5, self.color)
+        engine.zeichneRechteck(self.pos[0]+3, self.pos[1]+40, self.breite-32, self.hoehe-5, self.color)
+        engine.zeichneRechteck(self.pos[0]+14, self.pos[1]+40, self.breite-32, self.hoehe-5, self.color)

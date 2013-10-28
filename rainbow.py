@@ -1,4 +1,4 @@
-import RealEngine.clumaDe, random
+import QuizFL.quizFLG, random
 import figures.unicorn, figures.astronaut
 
 bildschirmBreite = 1440
@@ -7,8 +7,8 @@ bildschirmHoehe = 900
 ## die kollision mit der wand noch richtig machen
 ## variablen bei draw mit hoehe und breite richtig anpassen
 
-engine = RealEngine.clumaDe
-engine.initialisieren(bildschirmBreite, bildschirmHoehe, True, (0,100,255))
+engine = QuizFL.quizFLG
+engine.initialisieren(bildschirmBreite, bildschirmHoehe, False, (0,100,255))
 
         
 astronauten = []

@@ -1,9 +1,9 @@
-import RealEngine.clumaDe, random
+import QuizFL.quizFLG, random
 
 bildschirmBreite = 1440
 bildschirmHoehe = 900
 #TROLOLOLOLOL
-engine = RealEngine.clumaDe
+engine = QuizFL.quizFLG
 engine.initialisieren(bildschirmBreite, bildschirmHoehe, True, (0,0,0))
 
 class Kreis:
