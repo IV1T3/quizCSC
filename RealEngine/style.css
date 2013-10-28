@@ -53,3 +53,13 @@ section#generalSect{
 section#generalSect h2.heading{
 	text-align: center;
 }
+section#engineFunctions{
+	background-color: #FFF;
+	border-radius: 15px;
+	padding: 1em;
+	margin: 1em auto;
+	width: 70em;
+}
+section#engineFunctions h2.heading{
+	text-align: center;
+}
