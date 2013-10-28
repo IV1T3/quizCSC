@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
 	position: absolute;
 	left: 0;
@@ -26,3 +27,30 @@ section:target {
 ul#index a{
 	text-decoration: none;
 }
+=======
+header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 5em;
+	background-color: #3b5998;
+	color: white;
+}
+
+header img {
+	margin: 1em 0 0.25em 15%;
+}
+
+article {
+	margin-top: 5.5em;
+}
+
+body {
+	background-color: #E7EBF2;
+}
+
+section:target {
+	color: red;
+}
+>>>>>>> 269e2ddb3f6d1de3491bbdd804ae7ddbe7dade24
