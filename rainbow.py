@@ -1,7 +1,7 @@
 import RealEngine.clumaDe, random
 import figures.unicorn, figures.astronaut
 
-bildschirmBreite = 1600
+bildschirmBreite = 1440
 bildschirmHoehe = 900
 
 ## die kollision mit der wand noch richtig machen
