@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<link href="style.css" rel="stylesheet" type="text/css">
-		<link rel="shortcut icon" href="fb_icon.PNG" type="image/png" />
+		<link rel="icon" href="favicon.PNG" type="image/jpg" /> 
 		<meta name="application-name" content="QuizFL-Dokumentation">
 		<meta charset="utf-8">  
 		<title>Dokumentation - QuizFL</title>
@@ -39,6 +39,7 @@
 						<li> <a href="#import">QuizFL importen</a></li>
 						<li> <a href="#run">Programm zum Laufen bringen</a></li>
 						<li> <a href="#fun">Viel Spa&szlig;</a></li>
+						<li> <a href="#quests">Aufgaben</a></li>
 					</ol>
 				</ul>
 			</nav>
@@ -163,11 +164,31 @@
 				</section>
 				<section id="run">
 					<h3>Programm zum Laufen bringen</h3>
-					<p>1. Schritt: Folgendes zum Beispiel in das Python-Dokument hinzuf&uuml;gen: <section class="code">function = QuizFL.quizFL<br />function.init(500, 500, False, (1,33,7))<br /><br />while True:<br /><dd>function.draw()</dd><br /><br />function.destruct()</section></p>
+					<p>1. Schritt: Folgendes zum Beispiel in das Python-Dokument hinzuf&uuml;gen: <section class="code">function = QuizFL.quizFL<br />function.init(500, 500, False, (1,33,7))<br /><br />while True:<br /><dd>function.draw()</dd><br />function.destruct()</section></p>
 				</section>
 				<section id="fun">
 					<h3>Viel Spa&szlig;</h3>
-					<p>Nun ist die FL erfolgreich eingerichtet und es k&ouml;nnen alle Funktionen in vollem Umfang genutzt werden. Viel Spa&szlig; damit ;)</p>
+					<p>Nun ist die FL erfolgreich eingerichtet und es k&ouml;nnen alle Funktionen in vollem Umfang genutzt werden.<br />Um die gerade gelernten F&auml;higkeiten zu verfestigen, erledigen Sie doch die Folgenden Aufgaben:</p>
+				</section>
+				<section id="quests">
+					<h3>Aufgaben</h3>
+					<p>1. Beschreiben Sie f&uuml;r sich selbst den Ablauf des Programms und das anschlie&szlig;ende Ergebnis.</p>
+					<p>2. Erweitern Sie das Programm so, dass in dem Kreis ein gelbes Dreieck erscheint.</p>
+					<section class="code">
+						<pre>
+import QuizFL.quizFL
+					
+function = QuizFL.quizFL
+function.init(500, 500, False, (0,0,255))
+
+while True:
+	function.drawWords((125,200),"Beispielprogramm",42,(255,255,255))
+	function.drawCircle((250,300),50,(0,255,0))
+	function.draw()
+
+function.destruct()
+						</pre>
+					</section>
 				</section>
 			</section>
 		</article>
