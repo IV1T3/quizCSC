@@ -91,12 +91,13 @@
 				<section id="init">
 					<h3>init()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: init(BildschirmBreite, BildschirmH&ouml;he, Vollbild, Hintergrundfarbe)</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion init() muss IMMER an den Anfang in den Code eingef&uuml;gt werden. Sie bewirkt, dass die Engine startet und bei dem Programmstart ein Fenster erstellt wird. Ohne sie geht nichts!</p>
+					<p class="exam">Beispiel: init( 500 , 500 , True , ( 0 , 0 , 255 ) )</p>
+					<p class="expl">Erkl&auml;rung: Die Funktion init() muss IMMER an den Anfang in den Code eingef&uuml;gt werden. Sie bewirkt, dass bei dem Programmstart ein Fenster erstellt wird. In diesem Beispiel w&uuml;rde ein 500x500 gro&szlig;es, blaues Fenster im Vollbildmodus gestartet werden.</p>
 				</section>
 				<section id="draw">
 					<h3>draw()</h3>
 					<p class="params">Aufruf: draw()</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion draw() muss IMMER nach allen Funktionen in die While-True-Schleife in den Code eingef&uuml;gt werden. Sie bewirkt, dass alle beschriebenen Dinge auf den Bildschirm gezeichnet werden.</p>
+					<p class="expl">Erkl&auml;rung: Die Funktion draw() muss IMMER nach allen Funktionen an das Ende der While-True-Schleife eingef&uuml;gt werden. Sie bewirkt, dass alle beschriebenen Dinge auf den Bildschirm gezeichnet werden.</p>
 				</section>
 				<section id="destruct">
 					<h3>destruct()</h3>
@@ -155,14 +156,15 @@
 				<section id="import">
 					<h3>QuizFL importen</h3>
 					<p>1. Schritt: Neues Python-Dokument &ouml;ffnen</p>
-					<p>2. Schritt: Geben sie folgendes in das Python-Dokument ein: <section class="code">import QuizFL.quizFL</section></p>
+					<p>2. Schritt: Folgendes am Anfang in das Python-Dokument eingeben: <section class="code">import QuizFL.quizFL</section></p>
 				</section>
 				<section id="run">
 					<h3>Programm zum Laufen bringen</h3>
-					<p>1. Schritt: F&uuml;gen sie folgendes zu ihrem Python-Dokument hinzu: <section class="code">fl = QuizFL.quizFL<br /> while True:<br><dd>fl.draw()</dd></section></p>
+					<p>1. Schritt: Folgendes zum Beispiel in das Python-Dokument hinzuf&uuml;gen: <section class="code">function = QuizFL.quizFL<br />function.init(500, 500, False, (1,33,7))<br />while True:<br /><dd>function.draw()</dd><br />function.destruct()</section></p>
 				</section>
 				<section id="fun">
 					<h3>Viel Spa&szlig;</h3>
+					<p>Nun ist die FL erfolgreich eingerichtet und es k&ouml;nnen alle Funktionen in vollem Umfang genutzt werden. Viel Spa&szlig; damit ;)</p>
 				</section>
 			</section>
 		</article>

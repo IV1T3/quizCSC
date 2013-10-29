@@ -55,12 +55,15 @@ ul#index a{
 	color: blue;
 }
 
+section#generalSect, section#engineFunctions, section#tutorial{
+	width: 72%;
+}
+
 section#generalSect{
 	background-color: #FFF;
 	border-radius: 15px;
 	padding: 1em;
 	margin: 1em auto;
-	width: 80%;
 	min-width: 40em;
 }
 section#engineFunctions{
@@ -68,7 +71,6 @@ section#engineFunctions{
 	border-radius: 15px;
 	padding: 1em;
 	margin: 1em auto;
-	width: 80%;
 	min-width: 40em;
 }
 section#tutorial{
@@ -76,7 +78,6 @@ section#tutorial{
 	border-radius: 15px;
 	padding: 1em;
 	margin: 1em auto;
-	width: 80%;
 	min-width: 40em;
 }
 .code { /* Looks horrible */
@@ -87,6 +88,7 @@ section#tutorial{
 	padding: 1em;
 	overflow: hidden;
 	margin: 2em;
+	border-radius: 10px;
 }
 
 .jump {
