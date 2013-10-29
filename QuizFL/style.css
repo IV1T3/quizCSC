@@ -38,6 +38,10 @@ section:target table{
 	color: white;
 }
 
+article h1{
+	text-align: center;
+}
+
 nav {
 	background-color: #FFF;
 	border-radius: 15px;
@@ -71,4 +75,12 @@ section#tutorial{
 	padding: 1em;
 	margin: 1em auto;
 	width: 80em;
+}
+.code { /* Looks horrible */
+	background-color: grey;
+	font-style: italic;
+	color: orange;
+	border-radius: 15px;
+	width: 10em;
+	padding: 0.42em;
 }
