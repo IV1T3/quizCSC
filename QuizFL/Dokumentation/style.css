@@ -60,27 +60,44 @@ section#generalSect{
 	border-radius: 15px;
 	padding: 1em;
 	margin: 1em auto;
-	width: 60em;
+	width: 80%;
+	min-width: 40em;
 }
 section#engineFunctions{
 	background-color: #FFF;
 	border-radius: 15px;
 	padding: 1em;
 	margin: 1em auto;
-	width: 70em;
+	width: 80%;
+	min-width: 40em;
 }
 section#tutorial{
 	background-color: #FFF;
 	border-radius: 15px;
 	padding: 1em;
 	margin: 1em auto;
-	width: 80em;
+	width: 80%;
+	min-width: 40em;
 }
 .code { /* Looks horrible */
-	background-color: grey;
-	font-style: italic;
-	color: orange;
-	border-radius: 15px;
-	width: 10em;
-	padding: 0.42em;
+	background-color: black;
+	font-family: monospace;
+	color: lime;
+	width: 40em;
+	padding: 1em;
+	overflow: hidden;
+	margin: 2em;
+}
+
+.jump {
+	position: fixed;
+	display: block;
+	padding: 5px 10px;
+	color: #3b5998;
+	text-decoration: none;
+	background-color: white;
+	border: thin solid black;
+	bottom: 1em;
+	right: 1em;
+	font-size: 30px;
 }
