@@ -107,8 +107,8 @@
 				<section id="drawWords">
 					<h3>drawWords()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawWords(Position, Text, Schriftgr&ouml;&szlig;e, Schriftfarbe)</p>
-					<p class="exam">Beispiel: drawWords( ( 0 , 0 ) , " Hallo ", 23 , ( 255 , 255 , 255 ) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawWords() erm&ouml;glicht es einem, Text auf dem Bildschirm anzuzeigen. In diesem Beispiel wird "Hallo" oben links in der Bildschirm-Ecke in Schriftgr&ouml;sse 23 in wei&szlig; ausgegeben.</p>
+					<p class="exam">Beispiel: drawWords( ( 0 , 0 ) , " Hallo ", 69 , ( 255 , 255 , 255 ) )</p>
+					<p class="expl">Erkl&auml;rung: Die Funktion drawWords() erm&ouml;glicht es einem, Text auf dem Bildschirm anzuzeigen. In diesem Beispiel wird "Hallo" oben links in der Bildschirm-Ecke in Schriftgr&ouml;sse 69 in wei&szlig; ausgegeben.</p>
 				</section>
 				<section id="drawCircle">
 					<h3>drawCircle()</h3>
@@ -119,25 +119,25 @@
 				<section id="drawEllipse">
 					<h3>drawEllipse()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawEllipse(Start-x-Position, Start-y-Position, Breite, H&ouml;he, Farbe)</p>
-					<p class="exam">Beispiel: drawEllipse( 0 , 0 , 500 , 500 , ( 255 , 255 ,0) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawEllipse() erm&ouml;glicht es einem, eine Ellipse auf den Bildschirm zu zeichen. In diesem Beispiel wird zuerst ein Viereck mit den Koordinaten x1->0, y1->0, x2->500, y2->500 erstellt, woraus anschlie&szlig;end eine Ellipse erstellt wird. Die Ellipse ist gelb.</p>
+					<p class="exam">Beispiel: drawEllipse( 100 , 0 , 200 , 400 , ( 255 , 255 ,0) )</p>
+					<p class="expl">Erkl&auml;rung: Die Funktion drawEllipse() erm&ouml;glicht es einem, eine Ellipse auf den Bildschirm zu zeichen. In diesem Beispiel wird zuerst ein Viereck mit den Koordinaten x1=100, y1=0, x2=x1+200, y2=y1+400 erstellt, woraus anschlie&szlig;end eine Ellipse erstellt wird. Die Ellipse ist gelb.</p>
 				</section>
 				<section id="drawLine">
 					<h3>drawLine()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawLine(1. Punkt, 2. Punkt, Farbe)</p>
-					<p class="exam">Beispiel: drawLine( ( 0 , 0 ) , ( 1440 , 900 ) , ( 255 , 0 , 0 ) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawLine() erm&ouml;glicht es einem, eine Linie auf den Bildschirm zu zeichen. In diesem Beispiel wird eine rote Linie von ganz oben links bis nach ganz rechts unten gezogen(nur bei einem Bildschirmformat von 1440x900)</p>
+					<p class="exam">Beispiel: drawLine( ( 0 , 0 ) , ( 337 , 420 ) , ( 255 , 0 , 0 ) )</p>
+					<p class="expl">Erkl&auml;rung: Die Funktion drawLine() erm&ouml;glicht es einem, eine Linie auf den Bildschirm zu zeichen. In diesem Beispiel wird eine rote Linie von ganz oben links bis zu den Koordinaten 337x420 gezeichnet.</p>
 				</section>
 				<section id="drawRect">
 					<h3>drawRect()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawRect(Start-x-Position, Start-y-Position, Breite, H&ouml;he, Farbe)</p>
-					<p class="exam">Beispiel: drawRect( 0 , 0 , 500 , 500 , ( 0 , 255 , 0 ) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawRect() erm&ouml;glicht es einem, ein Viereck auf den Bildschirm zu zeichen. In diesem Beispiel wird ein gr&uuml;nes Quadrat von ganz oben links bis zu den Koordinaten x2->500, y2->500 gezeichnet.</p>
+					<p class="exam">Beispiel: drawRect( 250 , 250 , 150 , 100 , ( 0 , 255 , 0 ) )</p>
+					<p class="expl">Erkl&auml;rung: Die Funktion drawRect() erm&ouml;glicht es einem, ein Viereck auf den Bildschirm zu zeichen. In diesem Beispiel wird ein gr&uuml;nes Quadrat mit den Koordinaten x1=250, y1=250, x2=x1+150, y2=y1+100 gezeichnet.</p>
 				</section>
 				<section id="drawTriangle">
 					<h3>drawTriangle()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawTriangle(1. Punkt, 2. Punkt, 3. Punkt, Farbe)</p>
-					<p class="exam">Beispiel: drawTriangle( ( 5 , 5 ) , ( 55 , 5 ) , ( 30 , 35 ) , ( 0 , 0 , 255 ) )</p>
+					<p class="exam">Beispiel: drawTriangle( ( 55 , 55 ) , ( 30 , 70 ) , ( 50 , 70 ) , ( 0 , 0 , 255 )</p>
 					<p class="expl">Erkl&auml;rung: Die Funktion drawTriangle() erm&ouml;glicht es einem, ein Dreieck auf den Bildschirm zu zeichnen. In diesem Beispiel wird ein blaues Dreieck  mit den angegebenen Koordinaten gezeichnet.</p>
 				</section>
 			</section>
@@ -145,8 +145,8 @@
 				<h2 class="heading">Tutorial</h2>
 				<section id="install">
 					<h3>Python und PyGame installieren</h3>
-					<p>1.Schritt: Falls Python noch nicht installiert -> das aktuellste Python 2.7  <a href="http://www.python.org/download/releases/2.7.5/">downloaden</a> und installieren</p>
-					<p>2.Schritt: Falls PyGame noch nicht installiert -> das aktuellste PyGame f&uuml;r Python 2.7 (!!!) <a href="http://www.pygame.org/download.shtml">downloaden</a> und installieren</p>
+					<p>1.Schritt: Falls Python 2.7 noch nicht installiert -> das aktuellste Python 2.7  <a href="http://www.python.org/download/releases/2.7.5/#download" target=”_blank”>downloaden</a> und installieren</p>
+					<p>2.Schritt: Falls PyGame noch nicht installiert -> das aktuellste PyGame f&uuml;r Python 2.7 (!!!) <a href="http://www.pygame.org/download.shtml" target=”_blank”>downloaden</a> und installieren</p>
 				</section>
 				<section id="save">
 					<h3>Projekt richtig abspeichern</h3>
@@ -160,7 +160,7 @@
 				</section>
 				<section id="run">
 					<h3>Programm zum Laufen bringen</h3>
-					<p>1. Schritt: Folgendes zum Beispiel in das Python-Dokument hinzuf&uuml;gen: <section class="code">function = QuizFL.quizFL<br />function.init(500, 500, False, (1,33,7))<br />while True:<br /><dd>function.draw()</dd><br />function.destruct()</section></p>
+					<p>1. Schritt: Folgendes zum Beispiel in das Python-Dokument hinzuf&uuml;gen: <section class="code">function = QuizFL.quizFL<br />function.init(500, 500, False, (1,33,7))<br /><br />while True:<br /><dd>function.draw()</dd><br /><br />function.destruct()</section></p>
 				</section>
 				<section id="fun">
 					<h3>Viel Spa&szlig;</h3>

@@ -16,6 +16,10 @@ article {
 	margin-top: 5.5em;
 }
 
+a{
+	color: blue;
+}
+
 body {
 	background-color: #E7EBF2;
 }
@@ -36,6 +40,9 @@ section:target {
 }
 section:target table{
 	color: white;
+}
+section:target a{
+	color: orange;
 }
 
 article h1{
