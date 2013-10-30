@@ -97,53 +97,84 @@
 					<h3>init()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: init(BildschirmBreite, BildschirmH&ouml;he, Vollbild, Hintergrundfarbe)</p>
 					<p class="exam">Beispiel: init( 500 , 500 , True , ( 0 , 0 , 255 ) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion init() muss IMMER an den Anfang in den Code eingef&uuml;gt werden. Sie bewirkt, dass bei dem Programmstart ein Fenster erstellt wird. In diesem Beispiel w&uuml;rde ein 500x500 gro&szlig;es, blaues Fenster im Vollbildmodus gestartet werden.</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion init() muss IMMER an den Anfang in den Code eingef&uuml;gt werden. 
+						Sie bewirkt, dass bei dem Programmstart ein Fenster erstellt wird. 
+						In diesem Beispiel w&uuml;rde ein 500x500 gro&szlig;es, blaues Fenster im Vollbildmodus gestartet werden.
+					</p>
 				</section>
 				<section id="draw">
 					<h3>draw()</h3>
 					<p class="params">Aufruf: draw()</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion draw() muss IMMER nach allen Funktionen an das Ende der While-True-Schleife eingef&uuml;gt werden. Sie bewirkt, dass alle beschriebenen Dinge auf den Bildschirm gezeichnet werden.</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion draw() muss IMMER nach allen Funktionen an das Ende der While-True-Schleife eingef&uuml;gt werden. 
+						Sie bewirkt, dass alle beschriebenen Dinge auf den Bildschirm gezeichnet werden.
+					</p>
 				</section>
 				<section id="destruct">
 					<h3>destruct()</h3>
 					<p class="params">Aufruf: destruct()</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion destruct() muss IMMER an das Ende des Codes au&szlig;erhalb der While-True-Schleife eingef&uuml;gt werden. Sie bewirkt, dass das Programm auch wieder korrekt geschlossen werden kann.</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion destruct() muss IMMER an das Ende des Codes au&szlig;erhalb der While-True-Schleife eingef&uuml;gt werden. 
+						Sie bewirkt, dass das Programm auch wieder korrekt geschlossen werden kann.
+					</p>
 				</section>
 				<section id="drawWords">
 					<h3>drawWords()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawWords(Position, Text, Schriftgr&ouml;&szlig;e, Schriftfarbe)</p>
 					<p class="exam">Beispiel: drawWords( ( 0 , 0 ) , " Hallo ", 69 , ( 255 , 255 , 255 ) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawWords() erm&ouml;glicht es einem, Text auf dem Bildschirm anzuzeigen. In diesem Beispiel wird "Hallo" oben links in der Bildschirm-Ecke in Schriftgr&ouml;sse 69 in wei&szlig; ausgegeben.</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion drawWords() erm&ouml;glicht es einem, Text auf dem Bildschirm anzuzeigen. 
+						Die angegebenen Koordinaten ist die linke, obere Ecke des Textes.
+						In diesem Beispiel wird "Hallo" oben links in der Bildschirm-Ecke in Schriftgr&ouml;sse 69 in wei&szlig; ausgegeben. 
+					</p>
 				</section>
 				<section id="drawCircle">
 					<h3>drawCircle()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawCircle(Mittelpunkt, Radius, Farbe)</p>
 					<p class="exam">Beispiel: drawCircle( ( 50 , 50 ) , 5 , ( 0 , 0 , 255 ) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawCircle() erm&ouml;glicht es einem, einen Kreis auf den Bildschirm zu zeichen. In diesem Beispiel wird ein blauer Kreis mit dem Mittelpunkt auf den Koordinaten (50, 50) und einem Radius von 5 Pixeln gezeichnet(10 Pixel Durchmesser).</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion drawCircle() erm&ouml;glicht es einem, einen Kreis auf den Bildschirm zu zeichen. 
+						In diesem Beispiel wird ein blauer Kreis mit dem Mittelpunkt auf den Koordinaten (50, 50) und einem Radius von 5 Pixeln gezeichnet(10 Pixel Durchmesser).
+					</p>
 				</section>
 				<section id="drawEllipse">
 					<h3>drawEllipse()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawEllipse(Start-x-Position, Start-y-Position, Breite, H&ouml;he, Farbe)</p>
 					<p class="exam">Beispiel: drawEllipse( 100 , 0 , 200 , 400 , ( 255 , 255 ,0) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawEllipse() erm&ouml;glicht es einem, eine Ellipse auf den Bildschirm zu zeichen. In diesem Beispiel wird zuerst ein Viereck mit den Koordinaten x1=100, y1=0, x2=x1+200, y2=y1+400 erstellt, woraus anschlie&szlig;end eine Ellipse erstellt wird. Die Ellipse ist gelb.</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion drawEllipse() erm&ouml;glicht es einem, eine Ellipse auf den Bildschirm zu zeichen. 
+						In diesem Beispiel wird zuerst ein Viereck mit den Koordinaten x1=100, y1=0, x2=x1+200, y2=y1+400 erstellt, 
+						woraus anschlie&szlig;end eine Ellipse erstellt wird. 
+						Die Ellipse ist gelb.
+					</p>
 				</section>
 				<section id="drawLine">
 					<h3>drawLine()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawLine(1. Punkt, 2. Punkt, Farbe)</p>
 					<p class="exam">Beispiel: drawLine( ( 0 , 0 ) , ( 337 , 420 ) , ( 255 , 0 , 0 ) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawLine() erm&ouml;glicht es einem, eine Linie auf den Bildschirm zu zeichen. In diesem Beispiel wird eine rote Linie von ganz oben links bis zu den Koordinaten 337x420 gezeichnet.</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion drawLine() erm&ouml;glicht es einem, eine Linie auf den Bildschirm zu zeichen. 
+						In diesem Beispiel wird eine rote Linie von ganz oben links bis zu den Koordinaten 337x420 gezeichnet.
+					</p>
 				</section>
 				<section id="drawRect">
 					<h3>drawRect()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawRect(Start-x-Position, Start-y-Position, Breite, H&ouml;he, Farbe)</p>
 					<p class="exam">Beispiel: drawRect( 250 , 250 , 150 , 100 , ( 0 , 255 , 0 ) )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawRect() erm&ouml;glicht es einem, ein Viereck auf den Bildschirm zu zeichen. In diesem Beispiel wird ein gr&uuml;nes Quadrat mit den Koordinaten x1=250, y1=250, x2=x1+150, y2=y1+100 gezeichnet.</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion drawRect() erm&ouml;glicht es einem, ein Viereck auf den Bildschirm zu zeichen. 
+						In diesem Beispiel wird ein gr&uuml;nes Quadrat mit den Koordinaten x1=250, y1=250, x2=x1+150, y2=y1+100 gezeichnet.
+					</p>
 				</section>
 				<section id="drawTriangle">
 					<h3>drawTriangle()</h3>
 					<p class="params">Aufruf mit Parametern/Argumenten: drawTriangle(1. Punkt, 2. Punkt, 3. Punkt, Farbe)</p>
 					<p class="exam">Beispiel: drawTriangle( ( 55 , 55 ) , ( 30 , 70 ) , ( 50 , 70 ) , ( 0 , 0 , 255 )</p>
-					<p class="expl">Erkl&auml;rung: Die Funktion drawTriangle() erm&ouml;glicht es einem, ein Dreieck auf den Bildschirm zu zeichnen. In diesem Beispiel wird ein blaues Dreieck  mit den angegebenen Koordinaten gezeichnet.</p>
+					<p class="expl">
+						Erkl&auml;rung: Die Funktion drawTriangle() erm&ouml;glicht es einem, ein Dreieck auf den Bildschirm zu zeichnen. 
+						In diesem Beispiel wird ein blaues Dreieck  mit den angegebenen Koordinaten gezeichnet.
+					</p>
 				</section>
 			</section>
 			<section id="tutorial">
@@ -174,7 +205,7 @@
 				<section id="quests">
 					<h3>Aufgaben</h3>
 					<p>1. Beschreiben Sie f&uuml;r sich selbst den Ablauf des Programms und das anschlie&szlig;ende Ergebnis.</p>
-					<p>2. Erweitern Sie das Programm so, dass in dem Kreis ein gelbes Dreieck erscheint.</p>
+					<p>2. Erweitern Sie das Programm so, dass in dem Kreis ein pinkes Dreieck erscheint.</p>
 					<section class="code">
 						<pre>
 import QuizFL.quizFL
