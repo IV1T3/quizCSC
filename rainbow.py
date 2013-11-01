@@ -8,18 +8,18 @@ bildschirmHoehe = 900
 ## variablen bei draw mit hoehe und breite richtig anpassen
 
 engine = QuizFL.quizFLG
-engine.initialisieren(bildschirmBreite, bildschirmHoehe, False, (0,100,255))
+engine.initialisieren(bildschirmBreite, bildschirmHoehe, True, (0,0,0))
 
         
 astronauten = []
 unicorns = []
-for i in range(0,23):
-    astronauten.append(figures.astronaut.astronaut(color = (random.randrange(1,255),random.randrange(1,255),random.randrange(1,255)), geschwindigkeit = random.randrange(3,18), bewegungX = random.randrange(-1, 1, 2), bewegungY = random.randrange(-1, 1, 2), position = [random.randrange(123,bildschirmBreite),random.randrange(123,bildschirmHoehe)]))
-    unicorns.append(figures.unicorn.unicorn(groesse = random.randrange(1,8)/10.0, geschwindigkeit = random.randrange(3,18), position = [random.randrange(123,bildschirmBreite),random.randrange(123,bildschirmHoehe)]))
+for i in range(0,99):
+    astronauten.append(figures.astronaut.astronaut(color = (255,255,255), geschwindigkeit = random.randrange(3,18), bewegungX = random.randrange(-1, 1, 2), bewegungY = random.randrange(-1, 1, 2), position = [random.randrange(123,bildschirmBreite),random.randrange(123,bildschirmHoehe)]))
+ #   unicorns.append(figures.unicorn.unicorn(groesse = random.randrange(1,8)/10.0, geschwindigkeit = random.randrange(3,18), position = [random.randrange(123,bildschirmBreite),random.randrange(123,bildschirmHoehe)]))
 
 
 mittelpunktX = bildschirmBreite / 2
-mittelpunktY = bildschirmHoehe / 2
+mittelpunktY = bildschirmHoehe
 
 while True:
     # Regenbogen wird gemalt
@@ -63,9 +63,9 @@ while True:
         astro.move()
         astro.draw()
         
-    for unicorn in unicorns:
-        unicorn.move()
-        unicorn.draw()
+   # for unicorn in unicorns:
+ #       unicorn.move()
+ #       unicorn.draw()
     
     engine.zeichne()
            
