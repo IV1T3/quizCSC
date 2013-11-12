@@ -1,4 +1,4 @@
-import pygame, sys
+import pygame, sys, quizKeys
 from pygame.locals import *
 
 
@@ -73,6 +73,7 @@ def draw():
     global screen
     global clock
     global screenColor
+    global keys
 
     keys = pygame.key.get_pressed()
     events = pygame.event.get()
@@ -90,7 +91,13 @@ def draw():
     clock.tick(30)
     screen.fill(screenColor)
 
+def keyPressed(a):
+    global keys
 
+    if keys[a]:
+        return True
+    else:
+        return False
 
 def destruct():
     """Close the window"""

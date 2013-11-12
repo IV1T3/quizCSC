@@ -11,7 +11,9 @@ x = 200
 y = 200
 
 while True:
-
+     if engine.keyPressed("a"):
+          break
+     
      #Koerper
      engine.zeichneRechteck(x, y, 250, 75, (255,255,255))
 
